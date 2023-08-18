@@ -1,0 +1,5 @@
+<launch>
+    <rosparam command="load" file="$(find use_yamlfile)/config/params.yaml"/>
+    <node pkg="use_yamlfile" type="yaml_reader" name="yaml_reader" output="screen" />
+
+</launch>
